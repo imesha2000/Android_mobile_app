@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SENSOR_ACCELEROMETER" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyReadyMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".Actitivties.PrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.Map"
+            android:exported="false" />
+        <activity
+            android:name=".TodoActitivites.TravelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodoActitivites.PersonalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.HomeNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodoActitivites.WorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodoActitivites.StudyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Actitivties.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+    </application>
+
+</manifest>

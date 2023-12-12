@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Ready Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bottom Navigation</string>
+    <string name="map_key" translatable="false">"AIzaSyDxNiSFxu2unUx17rtLbCHVyq0hKPgWoXs"</string>
+    <string name="my_location">My Location</string>
+    <string name="policy_phara1">Welcome to the privacy policy for the Ready Me app. Your privacy and the security of your personal information are of utmost importance to us. This policy outlines how we collect, use, and protect your information when you use our app. By using the Ready Me app, you consent to the practices described in this policy.</string>
+    <string name="policy_phara2">At Ready Me, we prioritize your privacy and strive to create a secure and personalized scheduling experience. When you use our app, we may collect certain personal information, including your name, email address, and profile picture, to tailor the app to your preferences. Additionally, we securely store the tasks and schedules you create, such as task details, categories, dates, times, and durations, enabling efficient organization and management.</string>
+    <string name="about_phara1">Ready Me is a user-friendly and efficient planning and scheduling app designed to simplify the process of managing your tasks and organizing your schedule. With its intuitive interface and powerful features, this app aims to enhance your scheduling experience and help you stay organized and on top of your commitments. Ready Me aims to overcome the limitations of manual scheduling techniques and existing tools by offering customization, flexibility, and ease of use. With this app, you can take control of your schedule and make the most of your time. Stay organized, set reminders, and access location information all in one convenient app.</string>
+    <string name="about_phara2">Thank you for choosing Ready Me to help you stay organized and efficient in managing your schedule!</string>
+</resources>
